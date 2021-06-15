@@ -1,0 +1,1059 @@
+body{
+    height: 7000px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 550px;
+    background-image: url("office1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.layout{
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.container{
+    height: 30px;
+    background-color: #333333;
+}
+header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.topleft{
+    width: 50%;
+}
+.topleft a{
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+.topleft i{
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+.topright{
+    width: 50%;
+    justify-content: flex-end;
+    display: flex;
+}
+.topright i{
+    color: white;
+    padding: 5px;
+}
+.head{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.09);
+}
+.extra{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.extra h3{
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 80px;
+    margin-left: 1%;
+}
+.extra a{
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px;
+    text-transform: uppercase;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+.extra ul{
+    margin-left: 22%;
+}
+.extra li{
+    display: inline-block;
+}
+.extra ul i{
+    color: white;
+    font-size: 1.2em;
+    position: relative;
+}
+.extra a:hover{
+    color: black;
+}
+ul .nol{
+    width: 15px;
+    border-radius: 100%;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 42px;
+    font-size: 12px;
+}
+/* birinci px */
+.section2{
+    height: 400px;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200px;
+    margin-bottom: -30px;
+}
+.section2 p{
+    font-size: 16px;
+    color: white;
+    text-justify: auto;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+/* ikinci px */
+.sectionextra{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 35%;
+}
+.sectionextra button{
+    padding: 12px 25px;
+    background-color: #333333;
+    width: 150px;
+    border: none;
+    height: 46px;
+    letter-spacing: 1px;
+}
+.sectionextra button a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.sectionextra :nth-child(2){
+    border: 2px solid #333333;
+    background-color: transparent;
+    transition-duration: 0.3s;
+    transition-property: color;
+    transition: 0.36s;
+    transition-timing-function: ease-in-out;
+}
+.sectionextra :nth-child(2):hover{
+    background-color: #333333;
+    transform: scaleY(1.1);
+}
+.setting{
+    width: 40px;
+    height: 40px;
+    background-color: #666666;
+    position: relative;
+    position: fixed;
+}
+.setting i{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    animation: set 2s infinite;
+    animation-timing-function: linear;
+}
+@keyframes set {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+.div2 h2{
+    color: #333333;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.div2 hr{
+    width: 7%;
+    margin: auto;
+}
+.text{
+    color: #666;
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    text-justify: auto;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    line-height: 2;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+}
+.skillprogress{
+    width: 49%;
+}
+.abouttext{
+    width: 49%;
+}
+.progress{
+    height: 50px;
+    color: #333333;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+}
+.skillprogress h4{
+    font-size: 2em;
+    font-family:'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.loan{
+    width: 100%;
+    height: 10px;
+    display: flex;
+    margin-top: 15px;
+}
+.loan1{
+    width: 89%;
+    background-color: #333333;
+}
+.loan2{
+    width: 11%;
+    background-color: #666666;
+}
+.abouttext h3{
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 15px;
+}
+.abouttext p{
+    margin-bottom: 15px;
+    line-height: 2;
+    color: #666;
+}
+.abouttext ul{
+    list-style: none;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+.abouttext ul i{
+    font-size: 12px;
+    margin-right: 10px;
+}
+.abouttext button{
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: white;
+    width: 140px;
+    border: 2px solid #333333;
+    height: 46px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+.abouttext button a{
+    display: inline-block;
+    color: #333333;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+}
+.abouttext button a:hover{
+    color: white;
+    background-color: #333333;
+}
+.ourservice{
+    background-color: #f6f6f6;
+    height: 700px;
+}
+.container2{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+.ourservice .container2 h2{
+    color: #333333;
+    padding-top: 100px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.container2 hr{
+    width: 9%;
+    margin: auto;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+.chess{
+    width: 30%;
+    height: 315px;
+    background-color: white;
+}
+.chess i{
+    margin-left: 43%;
+    font-size: 50px;
+    color: #333333;
+    padding-top: 50px;
+}
+.chess h4{
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.text2{
+    color: #666666;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    text-justify: auto;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    line-height: 2;
+}
+.before{
+    width: 150px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+}
+.chess .before i{
+    font-size: 10px;
+    color: #666;
+    padding-top: 50px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+.before a{
+    display: inline-block;
+    color: #666;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    position: absolute;
+    left: 60px;
+    top: 27px;
+}
+.chess:hover{
+    box-shadow: 3px 3px 30px 20px rgba(0, 0, 0, 0.05);
+}
+.client{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.award{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+.project{
+    margin-top: 90px;
+    width: 21%;
+    height: 121px;
+    background-color: #FFFFFF1A;
+    position: relative;
+}
+.project i{
+    font-size: 50px;
+    position: absolute;
+    color: white;
+    left: 30px;
+    top: 30px;
+}
+.project h2{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+.project p{
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 65px;
+    left: 100px;
+}
+.choose h2{
+    color: #333333;
+    padding-top: 100px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.choose hr{
+    width: 9%;
+    margin: auto;
+}
+.fastersupport{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+}
+.support h5{
+    left: 100px;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.support{
+    width: 49%;
+    height: 160px;
+    border: 1px solid white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 17%;
+    height: 53%;
+    background-color: #f6f6f6;
+    position: absolute;
+}
+.icon i{
+    font-size: 50px;
+    padding: 15px;
+    transition: all 0.5s ease-in-out;
+}
+.icon :hover{
+    background-color: black;
+    color: white;
+}
+.iconright{
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+}
+.iconright p{
+    color: #666;
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2;
+}
+.ourwork{
+    height: 1200px;
+    background-color: #f6f6f6;
+}
+.ourwork h2{
+    color: #333333;
+    padding-top: 100px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.ourwork hr{
+    width: 9%;
+    margin: auto;
+}
+.headul{
+    width: 30%;
+    margin: auto;
+}
+.headul a{
+    display: inline-block;
+    color: #666666;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    text-transform: uppercase;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.headul li :hover{
+    border: 2px solid #333;
+    border-radius: 5%;
+    transition: all 0.2s ease-in-out;
+}
+.headul li{
+    margin-right: 2%;
+    display: inline-block;
+}
+.slide{
+    padding-top: 50px;
+    width: 80%;
+    display: flex;
+    height: 700px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.photo{
+    width: 32%;
+    height: 320px;
+    position: relative;
+}
+.title{
+    width: 100%;
+    background-color: white;
+    display: none;
+    height: 1px;
+    transition: all 0.7s ease-in-out;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+}
+.left{
+    width: 70%;
+    height: 100px;
+}
+.right{
+    width: 30%;
+    height: 100px;
+}
+.photo :hover + .title{
+    position: absolute;
+    bottom: 20px;
+    height: 100px;
+    opacity: 1; 
+}
+.title h4{
+    color: #333333;
+    padding: 20px 20px 10px 20px;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+}
+.title p{
+    color: #666;
+    letter-spacing: 1px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.title .right i{
+    color: #666;
+    font-size: 30px;
+    padding: 20px;
+}
+#cycle{
+    margin-top: 50px;
+    padding: 12px 5px;
+    background-color: #333333;
+    width: 200px;
+    height: 46px;
+    border: 2px solid #333333;
+    transition-duration: 0.3s;
+    transition-property: color;
+    transition: 0.36s;
+    transition-timing-function: ease-in-out;
+    background-color: #f6f6f6;
+}
+#cycle a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+#cycle :hover{
+    background-color: #333333;
+    transform: scaleY(1.1);
+}
+.cycle i{
+    margin-right: 10px;
+}
+.blackslide{
+    height: 373px;
+    background-color: black;
+    position: relative;
+}
+.insideblackslide{
+    width: 750px;
+    height: 198px;
+    position: absolute;
+    top: 87.5px;
+    left: 30%;
+}
+.insideblackslide p{
+    color: white;
+    margin: auto;
+    font-size: 16px;
+    text-justify: auto;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    line-height: 2;
+}
+.image{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #FFFFFF4D;
+    margin: auto;
+}
+.insideblackslide h4{
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 10px;
+}
+.insideblackslide h6{
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 10px;
+}
+.team{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+}
+.team h2{
+    color: #333333;
+    padding-top: 100px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.team hr{
+    width: 9%;
+    margin: auto;
+}
+.persons{
+    padding-top: 50px;
+    width: 80%;
+    display: flex;
+    height: 550px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.person{
+    width: 32%;
+    height: 418px;
+    position: relative;
+}
+.founder{
+    width: 100%;
+    background-color: white;
+    display: none;
+    height: 1px;
+    transition: all 0.7s ease-in-out;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+}
+.first1{
+    width: 70%;
+    height: 100px;
+}
+.second2{
+    width: 30%;
+    height: 100px;
+}
+.person :hover + .founder{
+    position: absolute;
+    bottom: 1px;
+    height: 100px;
+    opacity: 1; 
+}
+.founder h4{
+    color: #333333;
+    padding: 20px 20px 10px 20px;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+}
+.founder p{
+    color: #666;
+    letter-spacing: 1px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.founder .second i{
+    color: #666;
+    font-size: 30px;
+    padding: 20px;
+}
+.price{
+    height: 900px;
+    background-color: #F6F6F6;
+}
+.price h2{
+    color: #333333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 50px;
+}
+.price hr{
+    width: 7%;
+    margin: auto;
+}
+.website{
+    width: 80%;
+    height: 146px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color: #F6F6F6;
+}
+.percent{
+    width: 24%;
+    height: 146px;
+    background-color: white;
+}
+.website2{
+    width: 80%;
+    height: 535px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color: #F6F6F6;
+}
+.basic{
+    width: 24%;
+    height: 446px;
+    background-color: white;
+    position: relative;
+}
+.per1 , .per2 , .per3 , .per4{
+    margin: auto;
+    border-bottom: 1px solid #666;
+    width: 80px;
+}
+.per2{
+    width: 120px;
+}
+.per3{
+    width: 110px;
+}
+.per4{
+    width: 130px;
+}
+.percent h3{
+    padding: 10px;
+    color: #666666;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 3px;
+}
+.unlimited{
+    width: 263px;
+    height: 146px;
+    margin: auto;
+    padding: 25px;
+}
+.unlimited sub{
+    color: #666666;
+}
+.unlimited h4{
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #666666;
+}
+.unlimited span{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #666666;
+}
+#unlimited{
+    width: 263px;
+    height: 146px;
+    margin: auto;
+    padding: 25px;
+}
+#unlimited sub{
+    color: #666666;
+}
+#unlimited h4{
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #333333;
+}
+#unlimited span{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #333333;
+}
+.list{
+    width: 50%;
+    margin: auto;
+}
+.basic ul li{
+    padding: 20px;
+    list-style-type: none;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    border-bottom: 1px solid #ababab;
+}
+.basic button{
+    width: 200px;
+    height: 46px;
+    position: absolute;
+    left: 40px;
+    top: 300px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #333333;
+    background-color: #f6f6f6;
+}
+.basic button a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.basic button a:hover{
+    color: white;
+}
+.basic button:hover{
+    background-color: #333333;  
+}
+.basic:hover{
+    box-shadow: 3px 3px 30px 20px rgba(0, 0, 0, 0.05);
+}
+.per:hover{
+    box-shadow: 3px 3px 30px 20px rgba(0, 0, 0, 0.05);
+}
+.chezmoi{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.chezmoileft{
+    width: 50%;
+    height: 500px;
+}
+.chezmoiright{
+    width: 50%;
+    height: 500px;
+}
+.chezmoileft h3{
+    font-size: 25px;
+    padding-top: 100px;
+}
+.chezmoileft p{
+        color: #666;
+        margin-top: 15px;
+        font-size: 16px;
+        text-justify: auto;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 2;
+    }
+.chezmoiright{
+    background-image: url(cool-facebook-cover.png);
+    width: 45%;
+    margin: auto;
+    height: 350px;
+    position: relative;
+}
+.myhome{
+    width: 38%;
+    height: 28px;
+    background-color: #333333;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+.chezmoiright a{
+    display: inline-block;
+    color: #0AADEE;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-size: 20px;
+    padding: 2px;
+    margin-left: 3px;
+}
+.from a{
+    display: inline-block;
+    color: #0AADEE;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-size: 15px;
+    padding: 2px;
+}
+.from{
+    width: 26%;
+    height: 20px;
+    background-color: #333333;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.chezmoiright h5{
+    font-size: 15px;
+    color: white;
+    margin-left: 5px;
+}
+.chezmoiright i{
+    font-size: 28px;
+    color: white;
+    padding: 3.5px;
+}
+.icons{
+    position: absolute;
+    left: 440px;
+    top: 20px;
+}
+.heart , .clock , .polygon{
+    width: 35px;
+    height: 35px;
+    background-color: #333;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+.heart :hover , .clock :hover , .polygon :hover{
+    background-color: #0AADEE;
+    transition: all 0.2s ease-in-out;
+}
+.extraheart{
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    right: 45px;
+    bottom: 100px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+}
+.extraheart1{
+    border-radius: 10%;
+}
+.extraheart1 p{
+    width: 50px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+}
+.extraheart2 i{
+    color: #333;
+    font-size: 25px;
+    width: 10px;
+    margin-left: -5px;
+}
+.heart:hover + .extraheart {
+    opacity: 1;
+}
+.extraclock{
+    width: 140px;
+    height: 35px;
+    background-color: #333;
+    position: absolute;
+    right: 45px;
+    bottom: 55px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+}
+.extraclock1{
+    border-radius: 10%;
+}
+.extraclock1 p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+    width: 120px;
+    margin-left: 10px;
+}
+.extraclock2 i{
+    color: #333;
+    font-size: 25px;
+    width: 10px;
+    margin-left: 5px;
+}
+.clock:hover + .extraclock {
+    opacity: 1;
+}
+.extrapolygon{
+    width: 50px;
+    height: 35px;
+    background-color: #333;
+    border-radius: 10%;
+    position: absolute;
+    right: 45px;
+    bottom: 10px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+}
+.extrapolygon1 p{
+    color: white;
+    font-size: 15px;
+    line-height: 35px;
+    margin-left: 5px;
+}
+.extrapolygon2 i{
+    color: #333;
+    font-size: 25px;
+    width: 10px;
+    margin-left: 5px;
+
+}
+.polygon:hover + .extrapolygon {
+    opacity: 1;
+}
+.extraheart1 {
+    font-size: 20px;
+    background-color: #333;
+}
